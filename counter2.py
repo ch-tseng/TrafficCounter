@@ -104,37 +104,37 @@ def printText(img, num1_1, num1_2, num2_1, num2_2, num3_1, num3_2, num4_1, num4_
     y4 = 200
     fontSize = 1.5
 
-    cv2.putText(img, "Car:", (1530, y1), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 0, 0), 3)
-    cv2.putText(img, "Truck:", (1530, y2), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 0, 0), 3)
-    cv2.putText(img, "Bus:", (1530, y3), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 0, 0), 3)
-    cv2.putText(img, "Motorbike:", (1530, y4), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 0, 0), 3)
+    cv2.putText(img, "Car:", (1530, y1), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Truck:", (1530, y2), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Bus:", (1530, y3), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Others:", (1530, y4), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
     cv2.putText(img, str(num2_1[0])+"/"+str(num2_2[0]), (1790, y1), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
     cv2.putText(img, str(num2_1[1])+"/"+str(num2_2[1]), (1790, y2), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
     cv2.putText(img, str(num2_1[2])+"/"+str(num2_2[2]), (1790, y3), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
     cv2.putText(img, str(num2_1[3])+"/"+str(num2_2[3]), (1790, y4), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
 
-    cv2.putText(img, "Car:", (30, y1+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 0, 0), 3)
-    cv2.putText(img, "Truck:", (30, y2+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 0, 0), 3)
-    cv2.putText(img, "Bus:", (30, y3+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 0, 0), 3)
-    cv2.putText(img, "Motorbike:", (30, y4+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 0, 0), 3)
-    cv2.putText(img, str(num1_1[0])+"/"+str(num1_2[0]), (260, y1+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
-    cv2.putText(img, str(num1_1[1])+"/"+str(num1_2[1]), (260, y2+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
-    cv2.putText(img, str(num1_1[2])+"/"+str(num1_2[2]), (260, y3+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
-    cv2.putText(img, str(num1_1[3])+"/"+str(num1_2[3]), (260, y4+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
+    cv2.putText(img, "Car:", (30, y1+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Truck:", (30, y2+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Bus:", (30, y3+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Others:", (30, y4+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, str(num1_1[0])+"/"+str(num1_2[0]), (280, y1+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
+    cv2.putText(img, str(num1_1[1])+"/"+str(num1_2[1]), (280, y2+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
+    cv2.putText(img, str(num1_1[2])+"/"+str(num1_2[2]), (280, y3+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
+    cv2.putText(img, str(num1_1[3])+"/"+str(num1_2[3]), (280, y4+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
 
     cv2.putText(img, "Car:", (60, y1), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
     cv2.putText(img, "Truck:", (60, y2), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
     cv2.putText(img, "Bus:", (60, y3), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
-    cv2.putText(img, "Motorbike:", (60, y4), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Others:", (60, y4), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
     cv2.putText(img, str(num3_1[0])+"/"+str(num3_2[0]), (320, y1), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
     cv2.putText(img, str(num3_1[1])+"/"+str(num3_2[1]), (320, y2), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
     cv2.putText(img, str(num3_1[2])+"/"+str(num3_2[2]), (320, y3), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
     cv2.putText(img, str(num3_1[3])+"/"+str(num3_2[3]), (320, y4), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
 
-    cv2.putText(img, "Car:", (1530, y1+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 2)
-    cv2.putText(img, "Truck:", (1530, y2+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 2)
-    cv2.putText(img, "Bus:", (1530, y3+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 2)
-    cv2.putText(img, "Motorbike:", (1530, y4+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 2)
+    cv2.putText(img, "Car:", (1530, y1+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Truck:", (1530, y2+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Bus:", (1530, y3+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
+    cv2.putText(img, "Others:", (1530, y4+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (255, 255, 255), 3)
     cv2.putText(img, str(num4_1[0])+"/"+str(num4_2[0]), (1790, y1+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
     cv2.putText(img, str(num4_1[1])+"/"+str(num4_2[1]), (1790, y2+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
     cv2.putText(img, str(num4_1[2])+"/"+str(num4_2[2]), (1790, y3+830), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0, 255, 0), 3)
@@ -290,7 +290,7 @@ if __name__ == "__main__":
                         count_Car1_1 += 1
                     elif(now_LABELS[now_id]=="bus"):
                         count_Bus1_1 += 1
-                    elif(now_LABELS[now_id]=="motorbike"):
+                    else:
                         count_Motorbike1_1 += 1
 
                 if( DOWN_1 == True):
@@ -301,7 +301,7 @@ if __name__ == "__main__":
                         count_Car1_2 += 1
                     elif(now_LABELS[now_id]=="bus"):
                         count_Bus1_2 += 1
-                    elif(now_LABELS[now_id]=="motorbike"):
+                    else:
                         count_Motorbike1_2 += 1
 
                 if( UP_2 == True):
@@ -312,7 +312,7 @@ if __name__ == "__main__":
                         count_Car2_1 += 1
                     elif(now_LABELS[now_id]=="bus"):
                         count_Bus2_1 += 1
-                    elif(now_LABELS[now_id]=="motorbike"):
+                    else:
                         count_Motorbike2_1 += 1
 
                 if( DOWN_2 == True):
@@ -323,7 +323,7 @@ if __name__ == "__main__":
                         count_Car2_2 += 1
                     elif(now_LABELS[now_id]=="bus"):
                         count_Bus2_2 += 1
-                    elif(now_LABELS[now_id]=="motorbike"):
+                    else:
                         count_Motorbike2_2 += 1
 
                 if( UP_3 == True):
@@ -334,7 +334,7 @@ if __name__ == "__main__":
                         count_Car3_1 += 1
                     elif(now_LABELS[now_id]=="bus"):
                         count_Bus3_1 += 1
-                    elif(now_LABELS[now_id]=="motorbike"):
+                    else:
                         count_Motorbike3_1 += 1
 
                 if( DOWN_3 == True):
@@ -345,7 +345,7 @@ if __name__ == "__main__":
                         count_Car3_2 += 1
                     elif(now_LABELS[now_id]=="bus"):
                         count_Bus3_2 += 1
-                    elif(now_LABELS[now_id]=="motorbike"):
+                    else:
                         count_Motorbike3_2 += 1
 
                 if( UP_4 == True):
@@ -356,7 +356,7 @@ if __name__ == "__main__":
                         count_Car4_1 += 1
                     elif(now_LABELS[now_id]=="bus"):
                         count_Bus4_1 += 1
-                    elif(now_LABELS[now_id]=="motorbike"):
+                    else:
                         count_Motorbike4_1 += 1
 
                 if( DOWN_4 == True):
@@ -367,7 +367,7 @@ if __name__ == "__main__":
                         count_Car4_2 += 1
                     elif(now_LABELS[now_id]=="bus"):
                         count_Bus4_2 += 1
-                    elif(now_LABELS[now_id]=="motorbike"):
+                    else:
                         count_Motorbike4_2 += 1
 
 
