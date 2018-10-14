@@ -10,8 +10,8 @@ calculateLine1 = [(240, 670), (880, 670)]  #[(from(x,y), to(x,y)]
 calculateLine2 = [(1080, 780), (1915, 780)]  #[(from(x,y), to(x,y)]
 calculateRange_y = 30   # length of Y (for up or down of the line)
 
-video_file = "/media/sf_ShareFolder/traffic1.mp4"
-output_video = "/media/sf_ShareFolder/traffic1.avi"
+video_file = "traffic1.mp4"
+output_video = "/media/sf_ShareFolder/highway.avi"
 
 def draw_CalculateLine(frame):
     cv2.line(frame, (calculateLine1[0][0],calculateLine1[0][1]), (calculateLine1[1][0],calculateLine1[1][1]), (255, 0, 0), 3)
